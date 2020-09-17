@@ -1,0 +1,18 @@
+import torch
+import os
+import numpy as np
+from torch.autograd import Variable
+import torch.nn.functional as F
+import torch.utils.data as Data
+import torchvision
+import matplotlib.pyplot as plt
+
+#Data conversion between numpy and torch
+'''
+np_data = np.arange(6).reshape((2,3))
+torch_data = torch.from_numpy(np_data)
+tensor2array = torch_data.numpy()
+print('\nnumpy',np_data,
+      '\ntorch',torch_data,
+      '\ntensor2array',tensor2array)
+'''
